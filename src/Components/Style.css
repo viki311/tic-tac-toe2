@@ -1,0 +1,17 @@
+.icon {
+  text-align: center;
+  color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+}
+.grid .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: tomato;
+  font-size: 3rem;
+}
